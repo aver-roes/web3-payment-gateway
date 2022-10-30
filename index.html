@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DALL-E Generated Images</title>
+
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <meta property="og:title" content="Eddie" />
+    <meta property="og:description" content="Dall-E AI Generate Images" />
+    <meta property="og:image" content="social.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main>
+      <header class="bg-cyan-400/[.50] rounded">
+        <h1>DaLL-E 2 Generated Images</h1>
+        <!-- <p>Abstract Art + Photographer</p> -->
+      </header>
+
+      <section>
+        <img src="dall-1.png" alt="dall-1" />
+      </section>
+
+      <section>
+        <img src="dall-2.png" alt="dall-2" />
+      </section>
+
+      <section>
+        <img src="dall-3.png" alt="dall-3" />
+      </section>
+
+      <section>
+        <img src="dall-4.png" alt="dall-4" />
+      </section>
+
+      <form class="bg-orange-500 rounded-lg">
+        <label>If you like my work, please consider sending me a tip!</label>
+        <input class="rounded-lg" value="0.01" /> <span>ETH</span>
+        <button
+          class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+        >
+          Tip
+        </button>
+      </form>
+    </main>
+
+    <script src="web3.js"></script>
+    <script src="tip.js"></script>
+  </body>
+</html>
